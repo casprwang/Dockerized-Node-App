@@ -2,8 +2,9 @@
   "name": "dockerized-node-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/wangsongiam/Dockerized-Node-App/issues"
   },
-  "homepage": "https://github.com/wangsongiam/Dockerized-Node-App#readme"
+  "homepage": "https://github.com/wangsongiam/Dockerized-Node-App#readme",
+  "devDependencies": {
+    "eslint": "^3.13.0",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
 }
