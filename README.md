@@ -1,4 +1,4 @@
-# A simple Docker server with Express and Node
+# A simple Docker server with Express, Node, kitematic
 
 ![2017-01-08 17 26 32](https://cloud.githubusercontent.com/assets/19645990/21754134/fc08429c-d5c7-11e6-87b7-4b38e04fcb91.gif)
 
